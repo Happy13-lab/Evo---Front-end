@@ -1,6 +1,6 @@
 # Evo Gadgets - Landing Page Premium
 
-Evo Gadgets es un sitio web estático premium para una tienda ficticia de dispositivos tecnológicos de vanguardia y audio de alta fidelidad. Este proyecto fue desarrollado para la **Evaluación Sumativa 1 de FrontEnd** y está diseñado pensando en la escalabilidad a futuro, integrando un diseño moderno responsivo y la preparación para funcionalidades interactivas (como carrito de compras y formularios).
+Evo Gadgets es un sitio web estático premium para una tienda ficticia de dispositivos tecnológicos de vanguardia y audio de alta fidelidad. Este proyecto fue desarrollado para la Evaluación 01 y está diseñado pensando en la escalabilidad a futuro, integrando un diseño moderno responsivo y la preparación para funcionalidades interactivas (como carrito de compras y formularios).
 
 ---
 
@@ -58,7 +58,7 @@ A continuación se detallan los prompts estructurados que guiaron el desarrollo 
 
 ### 4. Estilos Visuales y Flexbox
 > **Prompt:** *"Crear hoja de estilos CSS externa (style.css) con diseño premium de tipo Glassmorphism, alineación Flexbox para todos los contenedores y micro-animaciones en botones y tarjetas en hover. Definir variables CSS para los colores neón morado y cian, fondo oscuro y tipografía Outfit de Google Fonts."*
-> - **Explicación:** Con este prompt se le otorgó el aspecto visual "Wow" al sitio web, estableciendo la paleta de colores, sombras de neón, desenfoques y el sistema de Flexbox responsivo.
+> - **Explicación:** Con este prompt se le otorgó el aspecto visual al sitio web, estableciendo la paleta de colores, sombras de neón, desenfoques y el sistema de Flexbox responsivo.
 
 ---
 

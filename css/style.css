@@ -9,7 +9,7 @@
     --color-primary-glow: rgba(168, 85, 247, 0.4);
     --color-secondary: #06b6d4;     /* Neon Cyan */
     --color-secondary-glow: rgba(6, 182, 212, 0.4);
-    --color-text-main: #f3f4f6;     /* White grey */
+    --color-text-main: #fbfbfb;     /* White grey */
     --color-text-muted: #9ca3af;    /* Muted grey */
     --color-border: rgba(255, 255, 255, 0.08);
     --color-glass-bg: rgba(255, 255, 255, 0.03);
@@ -507,6 +507,7 @@ a {
     height: 48px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
