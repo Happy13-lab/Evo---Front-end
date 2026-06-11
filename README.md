@@ -29,6 +29,8 @@ Evo FrontEnd/
 │   ├── hero-headphones.png     # Imagen destacada en sección Hero
 │   ├── product-headphones.png  # Imagen de producto Evo Wave Pro
 │   ├── product-buds.png        # Imagen de producto Evo Buds Air
+│   ├── product-keyboard.png    # Imagen de producto Evo Keyboard Neon
+│   ├── product-watch.png       # Imagen de producto Evo Smartwatch Fit
 │   └── product-dock.png        # Imagen de producto Evo Charge Dock
 │
 ├── css/                        # Hojas de estilo

@@ -24,6 +24,24 @@ const productsList = [
         isFavorite: false
     },
     {
+        id: "keyboard-neon",
+        name: "Evo Keyboard Neon",
+        category: "Accesorios",
+        price: 129990,
+        description: "Teclado mecánico inalámbrico de perfil bajo con retroiluminación RGB de tonos morado y cian.",
+        image: "assets/product-keyboard.png",
+        isFavorite: false
+    },
+    {
+        id: "smartwatch-fit",
+        name: "Evo Smartwatch Fit",
+        category: "Accesorios",
+        price: 159990,
+        description: "Reloj inteligente deportivo con pantalla AMOLED, monitor de ritmo cardíaco y GPS integrado.",
+        image: "assets/product-watch.png",
+        isFavorite: false
+    },
+    {
         id: "charge-dock",
         name: "Evo Charge Dock",
         category: "Accesorios",
