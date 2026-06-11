@@ -105,52 +105,31 @@
                     <h2 class="section-title">Nuestra Colección <span class="text-glow">Evo</span></h2>
                     <p class="section-subtitle">Dispositivos futuristas pensados para elevar tu ecosistema tecnológico.</p>
                 </div>
+
+                <!-- CONTROLES DE INTERACTIVIDAD (Buscador, Filtros, Favoritos) -->
+                <div class="products-controls">
+                    <div class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="search-input" placeholder="Buscar dispositivo...">
+                    </div>
+                    
+                    <div class="category-filters">
+                        <button class="filter-btn active" data-category="todos">Todos</button>
+                        <button class="filter-btn" data-category="Over-Ear">Over-Ear</button>
+                        <button class="filter-btn" data-category="In-Ear">In-Ear</button>
+                        <button class="filter-btn" data-category="Accesorios">Accesorios</button>
+                    </div>
+
+                    <div class="favorites-filter">
+                        <label class="fav-checkbox-label" for="filter-favorites">
+                            <input type="checkbox" id="filter-favorites">
+                            <span class="checkbox-text">Mostrar solo favoritos ❤️</span>
+                        </label>
+                    </div>
+                </div>
                 
-                <div class="products-grid">
-                    <article class="product-card">
-                        <div class="product-image-container">
-                            <img src="assets/product-headphones.png" alt="Evo Wave Pro" class="product-image">
-                        </div>
-                        <div class="product-info">
-                            <span class="product-category">Over-Ear</span>
-                            <h3 class="product-name">Evo Wave Pro</h3>
-                            <p class="product-desc">Auriculares inalámbricos premium con cancelación activa de ruido inteligente.</p>
-                            <div class="product-footer">
-                                <span class="product-price">$189.990</span>
-                                <button class="btn btn-sm btn-outline btn-add-cart">Añadir al Carrito</button>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="product-card">
-                        <div class="product-image-container">
-                            <img src="assets/product-buds.png" alt="Evo Buds Air" class="product-image">
-                        </div>
-                        <div class="product-info">
-                            <span class="product-category">In-Ear</span>
-                            <h3 class="product-name">Evo Buds Air</h3>
-                            <p class="product-desc">Auriculares compactos resistentes al sudor y con estuche de carga inalámbrica.</p>
-                            <div class="product-footer">
-                                <span class="product-price">$89.990</span>
-                                <button class="btn btn-sm btn-outline btn-add-cart">Añadir al Carrito</button>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="product-card">
-                        <div class="product-image-container">
-                            <img src="assets/product-dock.png" alt="Evo Charge Dock" class="product-image">
-                        </div>
-                        <div class="product-info">
-                            <span class="product-category">Accesorios</span>
-                            <h3 class="product-name">Evo Charge Dock</h3>
-                            <p class="product-desc">Estación de carga inalámbrica rápida 3-en-1 de aluminio aeroespacial.</p>
-                            <div class="product-footer">
-                                <span class="product-price">$49.990</span>
-                                <button class="btn btn-sm btn-outline btn-add-cart">Añadir al Carrito</button>
-                            </div>
-                        </div>
-                    </article>
+                <div class="products-grid" id="products-grid">
+                    <!-- Se renderizará dinámicamente con JavaScript -->
                 </div>
             </div>
         </section>
@@ -247,5 +226,7 @@
         </div>
     </footer>
 
+    <!-- Script de Interactividad (Evaluación Sumativa 2) -->
+    <script src="js/main.js"></script>
 </body>
 </html>
